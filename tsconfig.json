@@ -5,6 +5,10 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "react-native": [
+        "../../node_modules/react-native",
+        "../../node_modules/nativewind"
       ]
     }
   },
@@ -12,6 +16,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+  ],
+  "types": ["nativewind/types"],
+  "exclude": ["node_modules"]
 }
